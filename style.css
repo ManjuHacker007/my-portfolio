@@ -1,0 +1,212 @@
+
+p {
+    font-size: 16px;
+}
+
+.personal_image_1 img{
+    width: fit-content;
+    height: 300px;
+    border-radius: 10px;
+    border: 2px solid #691bd4;
+}
+
+.personal_image_1{    
+    display: flex;
+    justify-content: center;    
+}
+
+.work_image_1 img{
+    width: fit-content;
+    height: 400px;
+}
+.education_image_1 img{
+    width: fit-content;
+    height: 600px;
+}
+.navigation_bar_01 .navbar-nav a{
+    color: rgb(42, 44, 43) !important;
+    font-size: 20px;
+    padding-right: 30px !important;
+}
+
+.navigation_bar_01 .navbar-nav a:hover{
+    text-decoration: none;
+    text-shadow: 2px 2px #cacaca;
+
+}
+
+.navbar-nav {
+    float: right !important;
+}
+
+.navbar-nav.ms-auto{
+    float: left !important;
+}
+.home_section{
+    padding: 60px 0;
+}
+
+.experience_section , .education_section , .course_section , .project_section,  .skills_section{
+    padding: 30px 0;
+}
+
+.experience_section h1 , .education_section h1 , .course_section h1 , .project_section h1,  .skills_section h1{
+    padding-left: 40px;
+}
+
+.mail_me{
+    background-color: #691bd4;
+    padding: 5px 30px;
+    margin-top: 20px !important;
+    color: #fff;
+    font-size: 18px;
+    border: none;
+
+}
+
+.footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 20px 0;
+}
+
+.footer_section{
+    background-color: #691bd4;
+    color: #fff;
+}
+
+.footer_section a{
+    color: #fff;
+}
+
+.bg_grey_01{
+    background-color: #f6f6f6;
+
+}
+
+.experience_section h1 , .education_section h1 , .course_section h1 , .project_section h1,  .skills_section h1{
+    color: #691bd4;
+}
+
+p.discription , p.project_descrition, p.education, p.skills{
+    font-size: 18px !important;
+}
+
+.footer_section .footer .fa{
+    margin-right: 5px;
+}
+
+.footer_section .footer a:hover{
+    color: #fff !important;
+    text-decoration: none;
+    cursor: pointer !important;
+}
+
+.personal_description_02{
+    margin: auto !important;
+}
+
+.personal_description_02 h1{
+    margin-top: 0;
+}
+
+.buttons_class{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.personal_image_1 img:hover {
+    filter: grayscale(1);
+    transition: 0.7s ease-in-out;
+}
+
+img.heading_img{
+    height: auto;
+    width: 40px;
+    margin-top: -10px;
+}
+
+
+.col-lg-8 h3{
+    padding-left: 15px;    
+    border-left: 3px solid #691bd4;
+}
+
+
+
+
+
+
+
+/* ____________________________________________________________________ */
+
+
+/* Desktop 1200 - up */
+@media only screen and (min-width: 1200px) {
+
+}
+
+
+/* Ipad pro :992px. (Laptop 14") */
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+
+}
+
+/* Tablet device :768px. */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+
+}
+
+
+/*  mobile  */
+@media only screen and (max-width: 767px) {
+
+    .navbar-nav.ms-auto{
+        display: none !important;
+    }
+    .navbar-nav {
+        float: none !important;
+    }
+
+    .home_section {
+        padding-top: 0;
+        padding-bottom: 40px;
+    }
+    .personal_image_1{
+        padding-top: 30px;
+        display: flex;
+        justify-content: center;
+    }
+    .h1, h1 {
+        font-size: 28px !important;
+    }
+
+    .experience_section h1 , .education_section h1 , .course_section h1 , .project_section h1,  .skills_section h1{
+        padding-left: 0px;
+    }
+
+    .footer {
+        flex-direction: column;
+        align-items: center;
+    }
+    .personal_description_02{
+        padding-left: 30px !important;
+    }
+
+    .navbar>.container-fluid{        
+        justify-content: flex-end !important;
+    }
+    .buttons_class {
+        justify-content: center;
+    }
+
+    .experience_section h3 , .education_section h3 , .course_section h3 , .project_section h3,  .skills_section h3{
+        font-size: 22px;
+    }
+    .col-lg-8 h3{
+        padding-left: 0;    
+        border-left:none;
+    }
+}
